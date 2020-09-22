@@ -1,0 +1,14 @@
+ÿpKnown Issues
+
+* If you notice that the anchor/resize behaviour of certain controls is 
+lost when switching to runtime, try cutting and repasting the controls 
+and then specifying an anchor/resize behaviour for them. This 
+problem is due to a deficiency in VB.
+
+* Currently, FlexUI does not support controls that don't support 
+Container property, such as Data control. We hope to add support 
+for those controls in future versions.
+
+* Call UpdateControlPositionSize method after you manually 
+resize or reposition a control. Not doing so may result in 
+unpredictable anchoring or resizing behaviour by FlexUI.
