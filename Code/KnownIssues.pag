@@ -1,0 +1,37 @@
+VERSION 5.00
+Begin VB.PropertyPage KnownIssues 
+   Caption         =   "Known Issues"
+   ClientHeight    =   5145
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   7305
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   5145
+   ScaleWidth      =   7305
+   Begin VB.TextBox txtIssues 
+      BeginProperty Font 
+         Name            =   "Arial"
+         Size            =   11.25
+         Charset         =   178
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   4680
+      Left            =   202
+      Locked          =   -1  'True
+      MultiLine       =   -1  'True
+      TabIndex        =   0
+      Text            =   "KnownIssues.pgx":0000
+      Top             =   232
+      Width           =   6900
+   End
+End
+Attribute VB_Name = "KnownIssues"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Option Explicit
+
